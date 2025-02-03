@@ -1,0 +1,8 @@
+To correct this issue, make sure to always include spaces around the +,-,*,/ operators inside the `calc()` function.  The correct syntax is demonstrated below:
+
+```css
+width:calc(100% - 10px);
+height:calc(50% + 20px);
+margin:calc(100px / 2);
+```
+By adding spaces, the CSS parser will correctly interpret the expression and perform the calculation.
